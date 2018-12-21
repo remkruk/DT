@@ -8,6 +8,6 @@ public class ExampleController {
 
     @GetMapping("/response")
     public String getResponse() {
-        return "Nice response";
+        return "{\"response\":\"Nice response\"}";
     }
 }
